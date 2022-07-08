@@ -1,0 +1,38 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin-top: 4rem;
+  padding: 0 8rem;
+  /* justify-content: center; */
+  gap: 2.5rem;
+}
+.menu-container {
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.menu-container img {
+  height: 150px;
+  width: 225px;
+  object-fit: cover;
+  border: 5px solid var(--color-4);
+  border-radius: 3px;
+}
+
+.info {
+  margin-left: 1rem;
+}
+
+.info header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted var(--color-4);
+  text-transform: capitalize;
+}
+
+.info p {
+  width: 350px;
+  margin-top: 1rem;
+  color: var(--color-2);
+}
